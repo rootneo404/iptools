@@ -121,7 +121,7 @@ def main():
             """)
             print("made by rootneo v.beta")
             print("1) Discover devices")
-            print("2) Scan ONE port on ALL devices")
+            print("2) Port scan")
             print("3) Exit\n")
 
             choice = input("Select option: ")
@@ -144,4 +144,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
