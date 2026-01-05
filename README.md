@@ -1,6 +1,6 @@
 # 🚀 Iptools
 
-Iptools is a lightweight, open-source network utility for discovering devices on your local network and scanning specific ports — built for speed, simplicity, and portability.
+Iptools is a lightweight, opensource network utility for discovering devices on your local network and scanning specific ports. Built for speed, simplicity, and portability.
 
 No Python required to run. Just download and execute.
 
