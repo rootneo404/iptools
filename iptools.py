@@ -5,7 +5,7 @@ import platform
 import threading
 import sys
 
-#UTILS
+# ---------------- UTILS ----------------
 
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
@@ -39,7 +39,7 @@ def get_hostname(ip):
     except:
         return "Unknown"
 
-#DEVICE DISCOVERY 
+# ---------------- DEVICE DISCOVERY ----------------
 
 def discover_hosts():
     subnet = get_local_subnet()
@@ -65,7 +65,7 @@ def discover_hosts():
 
     return hosts
 
-#PORT SCAN 
+# ---------------- PORT SCAN ----------------
 
 def scan_port(ip, port):
     try:
@@ -105,7 +105,7 @@ def scan_port_all_hosts(port):
 
     input("\nPress Enter to continue...")
 
-#MENU 
+# ---------------- MENU ----------------
 
 def main():
     try:
@@ -119,9 +119,9 @@ def main():
 ██║██║        ██║   ╚██████╔╝╚██████╔╝███████╗███████║
 ╚═╝╚═╝        ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
             """)
-            print("made by rootneo v.beta")
+            print("You need to run device discovery before running a port scan. Made by neonroot v1.0")
             print("1) Discover devices")
-            print("2) Port scan")
+            print("2) Scan ONE port on ALL devices")
             print("3) Exit\n")
 
             choice = input("Select option: ")
@@ -144,5 +144,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
