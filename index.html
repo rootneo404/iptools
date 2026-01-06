@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iptools – Lightweight Network Scanner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(ellipse at top, #0f172a, #020617);
+      color: #e5e7eb;
+      min-height: 100vh;
+    }
+    header {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3.2rem;
+      letter-spacing: 0.08em;
+      color: #38bdf8;
+    }
+    p.subtitle {
+      max-width: 720px;
+      margin: 20px auto 40px;
+      font-size: 1.1rem;
+      color: #94a3b8;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 14px 30px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.25s ease;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #38bdf8, #6366f1);
+      color: #020617;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(56,189,248,0.35);
+    }
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: rgba(15,23,42,0.7);
+      border: 1px solid rgba(148,163,184,0.1);
+      border-radius: 18px;
+      padding: 30px;
+      backdrop-filter: blur(8px);
+    }
+    .card h3 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+    .card p {
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #64748b;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(148,163,184,0.1);
+    }
+    footer span {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>IPTOOLS</h1>
+  <p class="subtitle">
+    A lightweight, open-source network scanner focused on simplicity,
+    speed, and maximum privacy. No tracking. No telemetry. Just tools.
+  </p>
+  <div class="buttons">
+    <a class="btn btn-primary" href="https://github.com/rootneo404/iptools/raw/refs/heads/main/iptools.exe">Download for Windows</a>
+  </div>
+</header>
+
+<section>
+  <div class="grid">
+    <div class="card">
+      <h3>Lightweight</h3>
+      <p>
+        Single-file executable. No installers. No dependencies.
+        Runs instantly on Windows systems.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Privacy First</h3>
+      <p>
+        No analytics, no telemetry, no cloud services.
+        Everything runs locally on your machine.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Open Source</h3>
+      <p>
+        Fully transparent and MIT licensed.
+        Inspect, modify, and build it yourself.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Focused Features</h3>
+      <p>
+        Automatic LAN detection, device discovery,
+        and targeted port scanning without bloat.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <h3>Legal Notice</h3>
+    <p>
+      Iptools is intended for educational purposes and for use on networks
+      you own or have permission to test. The author is not responsible
+      for misuse.
+    </p>
+  </div>
+</section>
+
+<footer>
+  Built by <span>rootneo</span> · MIT Licensed · Open Source
+</footer>
+
+</body>
+</html>
