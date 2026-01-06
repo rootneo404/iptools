@@ -52,13 +52,6 @@ No Python installation required.
 
 ---
 
-## Disclaimer
-
-This tool is intended only for networks you own or have permission to test.  
-Unauthorized scanning may be illegal in your country.
-
----
-
 ## License
 
 This project is licensed under the MIT License.
